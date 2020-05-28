@@ -52,3 +52,7 @@ create database magentodb;
 create user magentouser@'localhost' identified by 'magentopassdb';
 grant all privileges on magentodb.* to magentouser@'localhost';
 flush privileges;
+
+
+### setting up https on magento 2
+
